@@ -51,13 +51,13 @@ pip install mutagen
 <b>Step 4</b>- Include the <b>FluidSynth</b> library in your working folder (Library for rendering MIDI files):
 - **Midi2Flac** relies on the FluidSynth library (included in the zipped release folder) to render the MIDI files to FLAC files. As such, **the FluidSynth binary folder is required in the working folder**. As of October 2026, only the FluidSynth versions up to 2.3.0 allow to reliably render MIDI files without appending extra silence to the end of the rendered audio files (see Issue #1408 of the FluidSynth GitHub for more details). You should then select one of these versions from the following link if FluidSynth is not already found in your working folder: https://github.com/FluidSynth/fluidsynth/releases.
 
-<b>Step 6</b>- Create the "Album Cover Image" and "MIDI Files" subfolders within your working folder:
+<b>Step 5</b>- Create the "Album Cover Image" and "MIDI Files" subfolders within your working folder:
 ```
 mkdir "Album Cover Image", "MIDI Files" 
 ```
-<b>Step 7</b>- Add at least one MIDI file to the "MIDI Files" folder and include your album cover PNG or JPEG image in the "Album Cover Image" folder. Fill out any relevant metadata information in the second column (B) of the "metadata_csv_file.csv" comma-separated value (CSV) file within the "Metadata CSV File" subfolder, such as the album name, release year (more info on that below). You may also want to swap out the SF2 files included in the "SF2 Files".
+<b>Step 6</b>- Add at least one MIDI file to the "MIDI Files" folder and include your album cover PNG or JPEG image in the "Album Cover Image" folder. Fill out any relevant metadata information in the second column (B) of the "metadata_csv_file.csv" comma-separated value (CSV) file within the "Metadata CSV File" subfolder, such as the album name, release year (more info on that below). You may also want to swap out the SF2 files included in the "SF2 Files".
   
-<b>Step 8</b>- You're now ready to use <b>MusicReader</b>! 🎉
+<b>Step 7</b>- You're now ready to use <b>MusicReader</b>! 🎉
 
 ## 🎈 Usage <a name="usage"></a>
 Here are a few important pointers for best results:
