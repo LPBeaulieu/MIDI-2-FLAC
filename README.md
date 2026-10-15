@@ -1,7 +1,7 @@
 # Midi2Flac
 Midi2Flac lets you render MIDI files as FLAC audio files with SF2 soundfont files, complete with metadata information
 
-<h3 align="center">MusicReader</h3>
+<h3 align="center">Midi2Flac</h3>
 <div align="center">
   
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)](https://github.com/LPBeaulieu/MIDI-2-FLAC/blob/main/LICENSE)
@@ -57,7 +57,7 @@ mkdir "Album Cover Image", "MIDI Files"
 ```
 <b>Step 6</b>- Add at least one MIDI file to the "MIDI Files" folder and include your album cover PNG or JPEG image in the "Album Cover Image" folder. Fill out any relevant metadata information in the second column (B) of the "metadata_csv_file.csv" comma-separated value (CSV) file within the "Metadata CSV File" subfolder, such as the album name, release year (more info on that below). You may also want to swap out the SF2 files included in the "SF2 Files".
   
-<b>Step 7</b>- You're now ready to use <b>MusicReader</b>! 🎉
+<b>Step 7</b>- You're now ready to use <b>Midi2Flac</b>! 🎉
 
 ## 🎈 Usage <a name="usage"></a>
 Here are a few important pointers for best results:
