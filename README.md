@@ -55,7 +55,7 @@ pip install mutagen
 ```
 mkdir "Album Cover Image", "MIDI Files" 
 ```
-<b>Step 7</b>- Add at least one MIDI file to the "MIDI Files" folder and include your album cover PNG or JPEG image in the "Album Cover Image" folder. Fill out any metadata information in the second column (B) of the "metadata_csv_file.csv" comma-separated value (CSV) file within the "Metadata CSV File" subfolder, such as the album name, release year (more info on that below). You may also want to swap out the SF2 files included in the "SF2 Files".
+<b>Step 7</b>- Add at least one MIDI file to the "MIDI Files" folder and include your album cover PNG or JPEG image in the "Album Cover Image" folder. Fill out any relevant metadata information in the second column (B) of the "metadata_csv_file.csv" comma-separated value (CSV) file within the "Metadata CSV File" subfolder, such as the album name, release year (more info on that below). You may also want to swap out the SF2 files included in the "SF2 Files".
   
 <b>Step 8</b>- You're now ready to use <b>MusicReader</b>! 🎉
 
