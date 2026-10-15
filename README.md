@@ -1,5 +1,5 @@
 # Midi2Flac
-Midi2Flac lets you render MIDI files as FLAC audio files with SF2 soundfont files, complete with metadata information
+Midi2Flac lets you render MIDI files as FLAC audio files with SF2 soundfont files, complete with metadata information!
 
 <h3 align="center">Midi2Flac</h3>
 <div align="center">
