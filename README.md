@@ -84,14 +84,14 @@ Here is a description of how to provide Midi2Flac with the required metadata inf
 
 - You may **add a JPEG or PNG image to the "Album Cover Image" subfolder** of the working folder, and the image will automatically be downsized to a file size of 500 KB and thumbnailed if its largest side dimension exceeds the threshold of 800 pixels. You may provide your own values for these thresholds by passing in your settings of choice after the colons in the **"target_image_size:"** (e.g., "target_image_size:200" for 200 KB) and **"target_image_dimension:"** (e.g., "target_image_dimension:500" for 500 pixels) arguments.
 
-When running the application with additional arguments, open a PowerShell window in the root folder and enter the following (while adjusting the values to your preferred settings, making sure to place the arguments within quotes and separating each argument with a space):
-```
-./midi2flac.exe "target_image_size:200" "target_image_dimension:500"
-```
-When running the Python script instead of the executable file, you would enter this command:
-```
-python midi2flac.py "target_image_size:200" "target_image_dimension:500"
-```
+  When running the application with additional arguments, open a PowerShell window in the root folder and enter the following (while adjusting the   values to your preferred settings, making sure to place the arguments within quotes and separating each argument with a space):
+  ```
+  ./midi2flac.exe "target_image_size:200" "target_image_dimension:500"
+  ```
+  When running the Python script instead of the executable file, you would enter this command:
+  ```
+  python midi2flac.py "target_image_size:200" "target_image_dimension:500"
+  ```
 
 - The **image description text** will correspond to the **image's file name**, excluding the ".jpg" or ".png" extension, unless you pass in your image's description text after the colon in the **"image_description:"** argument. 
 
